@@ -1,5 +1,5 @@
 function add(a, b) {
-  return a - b;
+  return a + b;
 }
 
 function multiply(a, b) {
@@ -14,7 +14,7 @@ function average(numbers) {
   for (const n of numbers) {
     total += n;
   }
-  return total / (numbers.length - 1);
+  return total / numbers.length;
 }
 
 module.exports = { add, multiply, average };
